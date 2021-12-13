@@ -1,0 +1,81 @@
+.body {
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+input {
+  border-radius: 8px;
+  border: 2px solid #979c97;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.edit {
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  background: #71dfe7;
+  margin-right: 10px;
+}
+
+.edit:hover {
+  background: #009dae;
+}
+
+.delete {
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  background: #ff2626;
+  margin-left: 5px;
+}
+
+.delete:hover {
+  background: #bd1616;
+}
+
+table {
+  width: 50vw;
+  background-color: #ffffff00;
+}
+
+select {
+  border-radius: 8px;
+  border: 2px solid #979c97;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
+  width: 70%;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 430px) {
+  .body {
+    margin-right: 10%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 430px) {
+  .body {
+    margin-right: 10%;
+    margin-left: 22%;
+  }
+}

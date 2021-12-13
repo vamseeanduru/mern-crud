@@ -1,0 +1,64 @@
+body {
+  background-size: cover;
+}
+
+.container {
+  flex: 7;
+  margin-right: 10%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #2e4c6d;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+th:nth-child(even) {
+  background-color: #5584ac;
+}
+
+th {
+  background-color: #95d1cc;
+}
+
+.button {
+  background: #39a2db;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  transition-duration: 200ms;
+  border-radius: 20px;
+  background: #a2dbfa;
+}
+
+.logout {
+  height: 50px;
+  width: 100px;
+  margin-left: 0;
+}
+
+.login {
+  height: 50px;
+  width: 100px;
+  margin-left: 46%;
+}

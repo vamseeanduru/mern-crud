@@ -1,0 +1,78 @@
+.createEnvironment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  border-radius: 20px;
+  background: #ffffff00;
+  position: relative;
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.button {
+  background: #a2dbfa;
+  border: none;
+  color: #000;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.createEnvironment > input {
+  border-radius: 8px;
+  border: 2px solid #979c97;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.button:hover {
+  transition-duration: 200ms;
+  border-radius: 20px;
+  background: #39a2db;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 430px) {
+  h1 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .createEnvironment {
+    width: 80vw;
+    margin-left: 5%;
+    margin-right: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 430px) {
+  h1 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .createEnvironment {
+    width: 50vw;
+    margin-left: 15%;
+    margin-right: 30%;
+  }
+}
